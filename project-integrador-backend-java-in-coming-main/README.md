@@ -1,0 +1,213 @@
+# S-RAF Backend
+
+Backend desenvolvido para gerenciamento do sistema de substituição de docentes, responsável pela autenticação, controle de usuários, gerenciamento acadêmico e integração com o frontend.
+
+---
+
+# Tecnologias Utilizadas
+
+* Java 21
+* Spring Boot
+* Spring Security
+* JWT Authentication
+* Spring Data JPA
+* Hibernate
+* MySQL
+* Maven
+* Lombok
+
+---
+
+# Funcionalidades
+
+## Autenticação
+
+* Login com JWT
+* Controle de permissões
+* Segurança de rotas
+
+## Professores
+
+* Cadastro de professores
+* Atualização de perfil
+* Controle de aulas
+* Consulta por e-mail
+
+## Coordenadores
+
+* Gestão acadêmica
+* Aprovação de solicitações
+* Controle administrativo
+
+## Solicitações
+
+* Solicitação de ausência
+* Controle de substituições
+* Aprovação e rejeição
+
+## Aulas
+
+* Cadastro de disciplinas
+* Controle de carga horária
+* Associação com docentes
+
+---
+
+# Estrutura do Projeto
+
+```bash id="w8r5nm"
+src/
+│
+├── controller/
+├── service/
+├── repository/
+├── entity/
+├── dto/
+├── security/
+├── config/
+├── exception/
+└── SrafApplication.java
+```
+
+---
+
+# Como Executar o Projeto
+
+## Clone o repositório
+
+```bash id="m9z2yc"
+git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+```
+
+---
+
+## Acesse a pasta
+
+```bash id="q4d8la"
+cd projeto-integrador-backend
+```
+
+---
+
+## Configure o banco de dados
+
+No arquivo:
+
+```bash id="v7f3xe"
+src/main/resources/application.properties
+```
+
+Configure:
+
+```properties id="w1u0jg"
+spring.datasource.url=jdbc:mysql://localhost:3306/sraf
+spring.datasource.username=root
+spring.datasource.password=sua_senha
+```
+
+---
+
+# Execute o Projeto
+
+## Via Maven
+
+```bash id="x2p9cb"
+mvn spring-boot:run
+```
+
+---
+
+## Ou pela IDE
+
+Execute a classe:
+
+```bash id="o5n1vt"
+SrafApplication.java
+```
+
+---
+
+# API Base
+
+```bash id="y7k4ms"
+http://localhost:8080
+```
+
+---
+
+# Segurança
+
+O sistema utiliza:
+
+* JWT Token
+* Spring Security
+* Proteção de endpoints
+* Controle de roles
+
+---
+
+# Endpoints Principais
+
+## Auth
+
+```http id="m8u3yr"
+POST /auth/login
+```
+
+---
+
+## Professor
+
+```http id="q9b6ls"
+GET /professor
+POST /professor
+PUT /professor/{id}
+```
+
+---
+
+## Solicitações
+
+```http id="c7x2de"
+GET /solicitacao-ausencia
+POST /solicitacao-ausencia
+```
+
+---
+
+## Aulas
+
+```http id="n3w5pk"
+GET /aulas
+POST /aulas
+```
+
+---
+
+# Banco de Dados
+
+O projeto utiliza MySQL com relacionamento entre:
+
+* Professores
+* Coordenadores
+* Aulas
+* Solicitações
+* Substituições
+
+---
+
+# Integração com Frontend
+
+O backend foi desenvolvido para integração direta com o frontend React do S-RAF.
+
+---
+
+# Desenvolvedor
+
+Projeto desenvolvido para fins acadêmicos — Projeto Integrador.
+
+---
+
+# Licença
+
+Projeto destinado para fins educacionais.
