@@ -1,0 +1,145 @@
+# Projeto Integrador Frontend
+
+Sistema frontend desenvolvido para o Projeto Integrador do SENAI, com foco em gerenciamento e integração entre usuários, solicitações e operações do sistema acadêmico.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+* React
+* TypeScript
+* HTML5
+* CSS3
+* JavaScript
+* Node.js
+* npm
+
+---
+
+## 📁 Estrutura do Projeto
+
+```bash id="wsmw14"
+src/
+ ├── components/
+ ├── pages/
+ ├── services/
+ ├── routes/
+ ├── styles/
+ └── App.tsx
+```
+
+---
+
+## ⚙️ Instalação do Projeto
+
+Clone o repositório:
+
+```bash id="h0jv05"
+git clone https://github.com/SEU_USUARIO/projeto-integrador-frontend.git
+```
+
+Acesse a pasta:
+
+```bash id="if05jc"
+cd projeto-integrador-frontend
+```
+
+Instale as dependências:
+
+```bash id="3rttn4"
+npm install
+```
+
+---
+
+## ▶️ Executando o Projeto
+
+Inicie o servidor de desenvolvimento:
+
+```bash id="o6mq11"
+npm start
+```
+
+O projeto será executado em:
+
+```bash id="k32jlwm"
+http://localhost:3000
+```
+
+---
+
+## 🔗 Integração com Backend
+
+O frontend consome APIs do backend desenvolvido em Java Spring Boot.
+
+Exemplo de endpoint:
+
+```bash id="ly3f91"
+http://localhost:8080
+```
+
+---
+
+## 📌 Funcionalidades
+
+* Login de usuários
+* Cadastro de informações
+* Integração com API REST
+* Navegação entre páginas
+* Interface responsiva
+* Gerenciamento de solicitações
+
+---
+
+## 👨‍💻 Equipe de Desenvolvimento
+
+Projeto desenvolvido para fins acadêmicos no SENAI.
+
+Integrantes:
+
+* Pedro Henrique Mendes
+* Equipe Projeto Integrador
+
+---
+
+## 📄 Licença
+
+Este projeto é destinado exclusivamente para fins educacionais.
+
+---
+
+## 📷 Preview do Projeto
+
+Adicione aqui prints da aplicação:
+
+```bash id="zjlwm3"
+docs/images/home.png
+```
+
+---
+
+## 🛠️ Scripts Disponíveis
+
+### Rodar aplicação
+
+```bash id="7ef0pl"
+npm start
+```
+
+### Gerar build
+
+```bash id="n0mqn5"
+npm run build
+```
+
+### Executar testes
+
+```bash id="g0s3sq"
+npm test
+```
+
+---
+
+## 📚 Objetivo do Projeto
+
+O objetivo deste sistema é auxiliar no gerenciamento acadêmico e administrativo, promovendo integração entre frontend e backend através de APIs REST modernas.
